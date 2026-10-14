@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Puzzles — My Hobby Site</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f5f3ee;
+      color: #222;
+      font-family: Arial, sans-serif;
+    }
+    main {
+      max-width: 700px;
+      margin: 60px auto;
+      padding: 24px;
+    }
+    h1 { font-size: 42px; }
+    p { font-size: 18px; line-height: 1.6; }
+    .games {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-top: 28px;
+    }
+    .game {
+      flex: 1 1 240px;
+      padding: 24px;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      color: #222;
+      text-decoration: none;
+    }
+    .game:hover { border-color: #2364d2; }
+    .game h2 { margin-top: 0; color: #2364d2; }
+    .game p { margin-bottom: 0; font-size: 16px; }
+    .back { color: #2364d2; }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="back" href="../">← Home</a>
+    <h1>Puzzles</h1>
+    <p>Games I've built, with more to come.</p>
+
+    <div class="games">
+      <a class="game" href="./minesweeper/">
+        <h2>Minesweeper →</h2>
+        <p>Five modes: Rectangle, Flagless, Hexagon, Chess, and Mosaic.</p>
+      </a>
+
+      <a class="game" href="./mastermind/">
+        <h2>Mastermind →</h2>
+        <p>Crack the hidden code.</p>
+      </a>
+    </div>
+  </main>
+</body>
+</html>
